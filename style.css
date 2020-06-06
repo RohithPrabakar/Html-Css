@@ -6,3 +6,12 @@ body{
 #content{
     min-height: 200vh;
 }
+
+@media (min-width:992px){
+    #menu{
+        display: none !important; 
+    }
+    #home>.container-fluid{
+        width:95%
+    }
+}
